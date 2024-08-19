@@ -16,3 +16,8 @@ server:
       mountPath: /V2
       configuration:
         baseUri: "https://services.odata.org"
+    - name: cors
+      afterMiddleware: simpleproxy
+      configuration:
+        allowMethods: "GET,POST,PUT,DELETE,OPTIONS"
+        allowOrigin: "*"

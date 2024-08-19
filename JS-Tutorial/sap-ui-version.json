@@ -1,0 +1,11 @@
+{
+    "name": "OpenUI5",
+    "version": "1.126.0",
+    "buildTimestamp": "20230801000000",
+    "scmRevision": "abcdef123456",
+    "gav": "com.sap.ui5:ui5-core:1.126.0",
+    "libraries": {
+        "sap.ui.core": "1.126.0",
+        "sap.m": "1.126.0"
+    }
+}
